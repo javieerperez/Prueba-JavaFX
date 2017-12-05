@@ -42,4 +42,8 @@ public class ControlFX {
 	private void handleSend() {
 		cambiarEscena();
 	}
+	@FXML
+	private void SalirAPP(){
+		System.exit(0);
+	}
 }
