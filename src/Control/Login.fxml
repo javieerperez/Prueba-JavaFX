@@ -16,7 +16,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.ControlFX">
    <children>
       <SplitPane dividerPositions="0.6953907815631263" prefHeight="600.0" prefWidth="1000.0">
         <items>
@@ -24,7 +24,7 @@
                <children>
                   <ImageView fitHeight="391.0" fitWidth="287.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@assets/images/freesolo.png" />
+                        <Image url="@../Vista/assets/images/freesolo.png" />
                      </image>
                   </ImageView>
                   <Text fill="WHITE" layoutX="85.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Your own Account" wrappingWidth="314.25">
@@ -34,7 +34,8 @@
                   </Text>
                   <JFXButton layoutX="85.0" layoutY="520.0" prefHeight="32.0" prefWidth="156.0" style="-fx-background-color: #ffffff; -fx-background-radius: 40px; -fx-text-color: #D7CCC8;" text="ABOUT US" />
                   <JFXButton layoutX="256.0" layoutY="520.0" prefHeight="32.0" prefWidth="156.0" style="-fx-background-color: #795548; -fx-background-radius: 40px;" text="SIGN IN" />
-               </children></AnchorPane>
+               </children>
+            </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="300.0" prefHeight="600.0" prefWidth="300.0">
                <children>
                   <GridPane prefHeight="600.0" prefWidth="300.0">
@@ -71,7 +72,7 @@
                            </GridPane.margin>
                         </JFXTextField>
                         <RadioButton mnemonicParsing="false" text="UNDER 18?" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <JFXButton prefHeight="32.0" prefWidth="132.0" style="-fx-background-color: #ff4081; -fx-background-radius: 40px;" text="GET STARTED" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+                        <JFXButton onMouseClicked="#handleSend" prefHeight="32.0" prefWidth="132.0" style="-fx-background-color: #ff4081; -fx-background-radius: 40px;" text="GET STARTED" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
                         <JFXPasswordField focusColor="#ff4081" labelFloat="true" promptText="Password" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="TOP">
                            <GridPane.margin>
                               <Insets top="220.0" />
