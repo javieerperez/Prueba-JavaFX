@@ -33,7 +33,7 @@
                      </font>
                   </Text>
                   <JFXButton layoutX="85.0" layoutY="520.0" prefHeight="32.0" prefWidth="156.0" style="-fx-background-color: #ffffff; -fx-background-radius: 40px; -fx-text-color: #D7CCC8;" text="ABOUT US" />
-                  <JFXButton layoutX="256.0" layoutY="520.0" prefHeight="32.0" prefWidth="156.0" style="-fx-background-color: #795548; -fx-background-radius: 40px;" text="SIGN IN" />
+                  <JFXButton layoutX="256.0" layoutY="520.0" prefHeight="32.0" prefWidth="156.0" style="-fx-background-color: #757575; -fx-background-radius: 40px;" text="SIGN IN" />
                </children>
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="300.0" prefHeight="600.0" prefWidth="300.0">
@@ -50,7 +50,7 @@
                       <RowConstraints maxHeight="202.0" minHeight="10.0" prefHeight="117.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Circle fill="#eeeeee" radius="50.0" stroke="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                        <Circle fill="WHITE" radius="50.0" stroke="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
                         <Text fill="#ff4081" strokeType="OUTSIDE" strokeWidth="0.0" text="M" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                            <font>
                               <Font size="48.0" />
@@ -72,7 +72,7 @@
                            </GridPane.margin>
                         </JFXTextField>
                         <RadioButton mnemonicParsing="false" text="UNDER 18?" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <JFXButton onMouseClicked="#handleSend" prefHeight="32.0" prefWidth="132.0" style="-fx-background-color: #ff4081; -fx-background-radius: 40px;" text="GET STARTED" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+                        <JFXButton onMouseClicked="#handleSend" prefHeight="32.0" prefWidth="132.0" style="-fx-background-color: #757575; -fx-background-radius: 40px;" text="GET STARTED" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
                         <JFXPasswordField focusColor="#ff4081" labelFloat="true" promptText="Password" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="TOP">
                            <GridPane.margin>
                               <Insets top="220.0" />

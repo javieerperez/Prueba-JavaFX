@@ -8,6 +8,10 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
+/**
+ *Clase Main que ejecuta la app y muestra la primera pantalla
+ * @author Javier Perez Cancho
+ */
 public class MainFX extends Application {
 	
 	
